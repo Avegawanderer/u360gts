@@ -155,6 +155,7 @@ typedef struct master_t {
 	int32_t home_lat;
 	int32_t home_lon;
 	int16_t home_alt;
+    uint8_t oled_type;
 } master_t;
 
 extern master_t masterConfig;
